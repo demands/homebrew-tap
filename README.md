@@ -1,4 +1,4 @@
 brewtap
 =======
 
-A homebrew tap for various personal projects
+A [homebrew tap](http://brew.sh/) for various personal projects
