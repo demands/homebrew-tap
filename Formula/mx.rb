@@ -10,6 +10,8 @@ class Mx < Formula
     system "mkdir", "-p", install_dir
     system "cp", "./bin/mx", install_dir
     system "chmod", "a+x", "#{install_dir}/mx"
+
+    bash_completion.install 'mx-completion.bash'
   end
 
   test do
