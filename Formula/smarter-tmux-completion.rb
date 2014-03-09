@@ -6,6 +6,6 @@ class SmarterTmuxCompletion < Formula
   sha1 "55b78228cfb611d4eb4659944338dc920db75d90"
 
   def install
-    bash_completion.install 'smarter-tmux-completion.bash'
+    bash_completion.install 'smarter-tmux-completion.bash' => "zzz-smarter-tmux"
   end
 end
