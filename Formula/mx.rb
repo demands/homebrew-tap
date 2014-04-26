@@ -2,8 +2,8 @@ require "formula"
 
 class Mx < Formula
   homepage "https://github.com/demands/mx"
-  url "https://github.com/demands/mx/archive/v0.5.1.tar.gz"
-  sha1 "038b259e3a718c6a24b153bfd9ba1bf8f96a1d70"
+  url "https://github.com/demands/mx/archive/v0.5.2.tar.gz"
+  sha1 "cc2e6770034c75b2bb4e5829112cf5fe8ac843b7"
 
   def install
     install_dir = "#{prefix}/bin"
@@ -12,5 +12,7 @@ class Mx < Formula
     system "chmod", "a+x", "#{install_dir}/mx"
 
     bash_completion.install 'mx-completion.bash'
+
+    man1.install "doc/mx.1"
   end
 end
