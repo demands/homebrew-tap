@@ -1,9 +1,9 @@
 require "formula"
 
 class Mx < Formula
-  homepage "https://github.com/demands/mx"
-  url "https://github.com/demands/mx/archive/v0.5.2.tar.gz"
-  sha1 "cc2e6770034c75b2bb4e5829112cf5fe8ac843b7"
+  homepage 'https://github.com/demands/mx'
+  url 'https://api.github.com/repos/demands/mx/tarball/v0.7.0'
+  sha1 'ce4891452e695c9075050b2954a9e6ed76220966'
 
   def install
     install_dir = "#{prefix}/bin"
