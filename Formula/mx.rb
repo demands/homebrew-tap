@@ -23,10 +23,6 @@ class Mx < Formula
     tmux.write 'echo $@'
     tmux.chmod 0777
 
-    env = {
-      :PATH => "#{testpath}:#{ENV['PATH']}"
-    }
-
-    system env, 'mx .'
+    system "PATH=#{testpath}:#{ENV['PATH']} mx ."
   end
 end
