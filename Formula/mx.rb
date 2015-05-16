@@ -2,8 +2,8 @@ require "formula"
 
 class Mx < Formula
   homepage 'https://github.com/demands/mx'
-  url 'https://api.github.com/repos/demands/mx/tarball/v1.2.0'
-  sha1 '122157231a606dfbb3d5522eb7187c2207ba106b'
+  url 'https://api.github.com/repos/demands/mx/tarball/v1.2.2'
+  sha1 'a994739bf00fca86ad1b9f47f1e2cb2d99973abe'
   depends_on "tmux"
 
   def install
