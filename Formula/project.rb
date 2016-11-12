@@ -3,7 +3,7 @@ require "formula"
 class Project < Formula
   homepage 'https://github.com/demands/project'
   url 'https://api.github.com/repos/demands/project/tarball/v0.1.0'
-  sha1 'b757fb2536ae26c9c952ff2c5b57e2c69682177c'
+  sha256 'd3efa596154ad41214fd0911c32adece74553b4a3b6e3768355c561ab97977a5'
 
   def install
     install_dir = "#{prefix}/bin"
